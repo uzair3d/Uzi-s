@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8" />
+	<!-- <meta name = "viewport" content="width=device-width, initial-scale"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Just Practicing</title>
+</head>
+<body>
+	<div id = "home" data-role = "page">
+	<div data-role = "header" data-transition = "slidedown" data-theme = "b">
+		<h1>Home</h1>
+		<a href="#blog" data-icon = "grid" data-transition = "flip">Blog</a>
+		<a href="Back" data-icon = "home" data-transition = "slidedown">Home</a>
+	</div>
+		<h1 style="text-align: center;">Welcome to Uzi's</h1>
+		<p style="text-align: center;">You are required to fill in the following fields. Thank you.</p>
+		<div data-role = "content">
+			<fieldset>
+				<form>
+					<label>First name</label>
+					<input type = "text">
+					<a href="#blog" data-role = "button" data-transition = "slidedown">Click here to submit</a>
+				</form>
+			</fieldset>
+		</div>
+	</div>
+	<div id = "blog" data-role = "page">
+	<div data-role = "header" data-transition = "slidedown">
+		<h1>Blog</h1>
+		<a href="#home" data-transition = "flip">Home</a>
+	</div>
+		<h1 id="loadingAlignment">Thanks for tuning in at Uzi's.</h1>
+		<p id="loadingAlignment">You'll get a confirmation message soon.</p>
+	</div>
+</body>
+</html>

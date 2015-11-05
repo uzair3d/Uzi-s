@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+		xmlns	= "http://phonegap.com/ns/1.0"
+		id		= "com.uzair3d.uzis"
+	versionCode	= "1"
+	version 	= "1.0.0" >
+
+	<name>Uzi's_Conf_T</name>
+
+	<description>This is my amazing pointless app.</description>
+
+	<author href = "https://www.facebook.com/uzair.amer.3">
+		Uzair Amer
+	</author>	
+
+	<preference name = "orientation" value = "portrait" />
+
+</widget>
